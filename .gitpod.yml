@@ -3,4 +3,4 @@ image:
 
 tasks:
   - init: 'mvn clean install'
-    command: 'mvn clean install'
+    command: 'mvn clean install -DskipTests'
